@@ -19,6 +19,11 @@ public class Driver {
 		
 		ms.displayElements();
 		
+		SuperStack<String> stack = new SuperStack<String>(2);
+		System.out.println(stack.peek());
+		SuperStack<String> defaultStack = new SuperStack<String>();
+		System.out.println(stack.peek());
+		
 	}
 
 }

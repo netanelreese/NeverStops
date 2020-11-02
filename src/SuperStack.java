@@ -3,6 +3,9 @@ public class SuperStack<T> {
 	private T[] items;
 	private int top;
 	
+	public SuperStack() {
+		items = (T[]) new Object[1];
+	}
 	public SuperStack(int size){
 		items = (T[]) new Object[size];
 	}
