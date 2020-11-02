@@ -41,7 +41,7 @@ public class SuperStack<T> {
 			return null;
 		}
 		else {
-			return items[top];
+			return items[top - 1];
 		}
 	}
 	public void displayElements() {
